@@ -1,15 +1,15 @@
 
-const start = document.getElementById('gamePanel-start');
-const shuffle = document.getElementById('gamePanel-shuffle');
-const reset = document.getElementById('gamePanel-reset');
-const destroy = document.getElementById('gamePanel-delete');
-const showCards = document.getElementById('gamePanel-show');
-const gameField = document.getElementById('memoryField');
-const winInfoField = document.getElementById('consoleField');
-const gameInfo = document.getElementById('gameInfo');
 const cardSlider = document.getElementById("NumberOfPairs");
 const cardSliderOutput = document.getElementById("nextGamePairsDisplayer");
+const destroy = document.getElementById('gamePanel-delete');
+const gameField = document.getElementById('memoryField');
+const gameInfo = document.getElementById('gameInfo');
+const reset = document.getElementById('gamePanel-reset');
+const shuffle = document.getElementById('gamePanel-shuffle');
+const showCards = document.getElementById('gamePanel-show');
+const start = document.getElementById('gamePanel-start');
 const foundedPairsField = document.getElementById("foundedPairs");
+const winInfoField = document.getElementById('consoleField');
 
 const cards = document.getElementsByClassName('memoryField__card');
 
