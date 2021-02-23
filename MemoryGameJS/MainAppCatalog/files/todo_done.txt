@@ -13,8 +13,8 @@ programmer can manual change value of 'quantity' variable to change number of ca
 - Dopasowanie kolorystyki (card colors are picked randomly... which in the end is not best solution. Pre defined set of  contrasting colors could woul work better)
 
 Things that shoud be improved:
-- Modules: Allfuncionalities are  in huge monolitic main.js
-- Core functionality: Player can start to click cards before their are covered. Player can click already discovered pairs. Player don't know which card was clicked last time what can lead to a frustration.
-- Mutability: Quantity of mutability in this code woud make Darwin proud. Myself - not somuch. 0 design patterns. No observables, 0 state controll mechanism. No
-- Unit tests...  
+- Modules: All funcionalities are in huge monolitic main.js This file have only 200 lines of code and is already hard to maintain.
+- Core functionality: Player can start to click cards before their are turned (good for testing, bad for playing). Player can click already discovered pairs. Player don't know which card was clicked last time what can lead to a frustration.
+- Mutability: Quantity of mutability in this code would make Darwin proud. Myself - not so much. 0 design patterns. No observables, 0 state controll mechanism.
+- Unit tests...
 - Preper for translations (text as a variable)
